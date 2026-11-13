@@ -8,4 +8,4 @@ jobs:
     runs-on: ubuntu-latest   # macOS and Windows runners work too
     steps:
       - uses: actions/checkout@v7
-      - uses: shorstophq/shorstop@v0.1.0
+      - uses: shorstophq/shorstop@v0.1.1
