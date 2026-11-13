@@ -1,0 +1,11 @@
+name: shorstop
+on: [push, pull_request]
+permissions:
+  contents: read
+  security-events: write
+jobs:
+  scan:
+    runs-on: ubuntu-latest   # macOS and Windows runners work too
+    steps:
+      - uses: actions/checkout@v7
+      - uses: shorstophq/shorstop@v0.1.0
