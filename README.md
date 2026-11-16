@@ -20,7 +20,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
-      - uses: shorstophq/shorstop@v0.1.2
+      - uses: shorstophq/shorstop@v0.1.3
 ```
 
 Nothing here is used anywhere; the certificate's private key was never saved.
